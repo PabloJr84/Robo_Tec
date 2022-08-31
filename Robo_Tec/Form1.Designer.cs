@@ -33,7 +33,7 @@
             // 
             // Btn_acessar
             // 
-            this.Btn_acessar.Location = new System.Drawing.Point(26, 38);
+            this.Btn_acessar.Location = new System.Drawing.Point(12, 50);
             this.Btn_acessar.Name = "Btn_acessar";
             this.Btn_acessar.Size = new System.Drawing.Size(75, 23);
             this.Btn_acessar.TabIndex = 0;

@@ -1,4 +1,5 @@
 ﻿using EasyAutomationFramework;
+using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Keys = OpenQA.Selenium.Keys;
 
 namespace Robo_Tec
 {
@@ -32,6 +34,7 @@ namespace Robo_Tec
 
             web.Navigate("https://www.youtube.com");
 
+            web.AssignValue(TypeElement.Name, "search_query", "Cruzeiro").element.SendKeys(Keys.Enter);
 
         }
     }
